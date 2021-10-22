@@ -79,7 +79,7 @@
                             <constraint firstItem="PFH-nK-WBK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yfi-UQ-Oip"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Dashboard" id="Mf2-cg-1pe"/>
+                    <tabBarItem key="tabBarItem" title="Dashboard" image="homekit" catalog="system" id="Mf2-cg-1pe"/>
                     <navigationItem key="navigationItem" id="evm-cB-6Qf"/>
                     <connections>
                         <outlet property="btnSearch" destination="aOi-7q-YaA" id="V0e-ld-yM3"/>
@@ -162,7 +162,7 @@
                             <constraint firstItem="gSt-Q9-2KL" firstAttribute="trailing" secondItem="hg6-qU-MTx" secondAttribute="trailing" id="y9E-f5-fNm"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="History" id="SKe-jr-V4P"/>
+                    <tabBarItem key="tabBarItem" title="History" image="timer" catalog="system" id="SKe-jr-V4P"/>
                     <navigationItem key="navigationItem" id="7T8-lI-P3j"/>
                     <connections>
                         <outlet property="btnSearch" destination="2KD-CP-lXn" id="3Bi-TG-KcV"/>
@@ -417,7 +417,7 @@
                             <constraint firstItem="Ow7-gj-nh8" firstAttribute="top" secondItem="oCt-0r-Gtr" secondAttribute="bottom" id="yB2-lg-JPt"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Add Book" id="bag-zf-YtE"/>
+                    <tabBarItem key="tabBarItem" title="Add Book" image="plus" catalog="system" id="bag-zf-YtE"/>
                     <navigationItem key="navigationItem" id="BRD-fA-eBV"/>
                     <connections>
                         <outlet property="btnSave" destination="WyG-e8-7LA" id="tcm-zf-mAI"/>
@@ -463,7 +463,10 @@
     </scenes>
     <resources>
         <image name="clear" catalog="system" width="128" height="114"/>
+        <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="timer" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
